@@ -1,1 +1,10 @@
-
+server.port=6666
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.datasource.url=jdbc:postgresql://localhost:5432/leveldb
+spring.datasource.username=postgres
+spring.datasource.password=admin
+springdoc.swagger-ui.path=/swagger-ui.html
+spring.cache.jcache.config=classpath:ehcache.xml
